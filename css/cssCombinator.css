@@ -1,0 +1,45 @@
+.para1{
+	display: flex;
+	direction: rtl;
+	border: 2px dashed lightsteelblue;
+	padding: 10px;
+}
+
+h2{
+	text-align:center;
+}
+
+a{
+	display: flex;
+	border: 2px solid gray;
+	padding: 2px;
+	width: 20%;
+	margin-left: 80%;
+}
+
+a:hover{
+	color: #035397;
+}
+a:active{
+	color: #39A6A3;
+	text-align:center;
+}
+
+/*General Sibling Selector (~)*/
+h1~p{/*h1 er align a je p thakbe shetar color change hobe*/
+	color: red;
+}
+
+/*Adjacent Sibling Selector (+) por por ja thakbe next one er e change hobe*/
+h1+p{
+	text-align: center;}
+
+/*Descendant Selector ( ) */
+
+.baba h1{
+	color: yellowgreen;
+}
+/*Child Selector*/
+div>.bhai_son{
+	color: blue;
+}

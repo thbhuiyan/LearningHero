@@ -1,0 +1,121 @@
+/* class 1 */
+/* font-family */
+/* font-size */
+/* font-weight */
+/* line height*/
+/* text align */
+/* text-decoration */
+
+
+/* font-size */
+body{
+  font-size: .7em;
+}
+/* font-family */
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+.p1{
+  direction: rtl;/*right to left*/
+  unicode-bidi: bidi-override;
+
+}
+.p2{
+  text-align: justify;
+  text-shadow: 5px 5px 10px black;/*  horizontal vertical blurry color */
+}
+
+h1{
+  font-family: Georgia, 'Times New Roman', serif, 'Italianno', cursive;
+  font-size: 4em;
+  text-decoration: line-through;
+  text-align: center;
+}
+h1:hover{
+  transition: 5s;
+  text-decoration: none;
+}
+.changing:hover{
+  color: white;
+  background-color: blue;
+}
+  
+h3{
+    font-family: serif;
+    font-size: 1.3em;
+    text-decoration: blink;
+    text-align: center;
+}
+a:link{
+  background-color: yellow;
+  text-decoration: none;
+  color: red;
+  
+}
+a:visited{
+  text-decoration: underline;
+  color: green;
+  background-color: cyan;
+}
+a:hover{
+  text-decoration: underline;
+  color: mediumpurple;
+  background-color: lightgreen;
+}
+a:active{
+  text-decoration: underline;
+  color: gray;
+  background-color: hotpink;
+}
+
+/* em=relative font size 
+  size of em is relative */
+
+  /* font-weight */
+p{
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 2em;
+}
+span{
+  font-size: 1.5em;
+  font-family: 'Stick No Bills', sans-serif;
+}
+a{
+  font-family: 'Inter';
+}
+/* part 2 */
+
+/* line height*/
+/* text align */
+/* text-decoration */
+
+p{
+  line-height: 2;
+ text-decoration: blink;
+}
+p:hover{
+  background-color: skyblue;
+  text-indent: 20px;
+  transition: all 1s;
+}
+.Fonts{
+  font-family: Inter;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.Fonts:hover{
+    transition: 4s;
+    color: yellow;
+}
+/* Box Model  */
+
+/* Content,Padding,Border, Margin
+
+Padding is the inside of border, margin is on the other side of the border
+*/
+
+.h11{
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}

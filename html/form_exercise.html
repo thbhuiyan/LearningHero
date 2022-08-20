@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form exercise</title>
+</head>
+<body>
+
+  <tbody>
+    <Form>
+      <P><h2>Register</h2></P>
+      <Label for="firstName">First Name:</Label>
+        <input id="name" type="text" placeholder="example... John" required>
+      <label for="lastName">Last Name: </label>
+        <input id="name" type="text" placeholder="example... Abraham" required><br/>
+        <Label>Male</Label>
+          <input name="gender" type="radio">
+        <label>Female</label>
+          <input name="gender" type="radio">
+        <label>Others</label>
+          <input name="gender" type="radio"><br/>
+
+          <label>Email:</label>
+            <input type="email" placeholder="your mail*** abcd@mail.com" required>
+          <label>Password:</label>
+            <input type="password" pattern=.{6,12} placeholder="your password***" required title="6 to 12 characters"><br/>
+          <label>Birthday:</label>
+          <input type="date" required><br/>
+
+          <label> I agree to the terms and conditions </label> <input type="checkbox">
+          <br/>
+    <input type="submit" required>
+    
+    </Form>
+  </tbody>
+  
+</body>
+</html>

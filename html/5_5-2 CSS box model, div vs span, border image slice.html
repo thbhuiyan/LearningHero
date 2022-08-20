@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-Block-Pseudo</title>
+    <style>
+        .go {
+            display: flex;
+        }
+
+        .go1 {
+            margin: 20px;
+            padding-left: 10px;
+            color: white;
+            background-color: rgb(10, 109, 109);
+            width: 300px;
+            height: 150px;
+            padding-top: 35px;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+
+        li:first-child {
+            color: blue
+        }
+
+        li:last-child {
+            color: greenyellow;
+        }
+
+        .abc {
+            padding: ;
+
+        }
+
+        .abc:last-of-type {
+            color: blue;
+            background-color: rgb(250, 30, 100);
+        }
+
+
+        div.abc:first-of-type {
+            color: #fff;
+            background-color: green;
+        }
+
+        li:nth-child(2n) {
+            color: greenyellow;
+        }
+
+        li:nth-child(2n+1) {
+            color: red;
+        }
+
+        h3::before {
+            content: 'Hello Vai, ';
+        }
+
+        h3::after {
+            content: '  Gelo shob gelo!!';
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="go">
+        <div class="go1">
+            <h1>Room-1</h1>
+            <S></S>
+            <p>Beautiful Room it is!</p>
+        </div>
+        <div class="go1">
+            <h1>Room-2</h1>
+            <S></S>
+            <p>Beautiful Room it is!</p>
+        </div>
+        <div class="go1 abc">
+            <h1>Room-3</h1>
+            <S></S>
+            <p>Beautiful Room it is!</p>
+        </div>
+    </section>
+    <ul>
+        <li>Alia</li>
+        <li>dalia</li>
+        <li>maria</li>
+        <li>rukaiya</li>
+        <li>faria</li>
+    </ul>
+
+    <h3>middle size header 1</h3>
+    <h3>middle size header 2</h3>
+    <h3>middle size header 3</h3>
+    <h3>middle size header 4</h3>
+    <h3>middle size header 5</h3>
+    <h3>middle size header 6</h3>
+
+
+</body>
+
+</html>

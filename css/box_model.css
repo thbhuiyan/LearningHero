@@ -1,0 +1,58 @@
+h1{
+	text-align: center;
+}
+fon
+table{
+	margin: auto;
+}
+td{
+	width: 100px;
+	height: 100px;
+}
+.firstV,.middleV,.lastV{
+	border-left:2px solid black ;
+	border-right:2px solid black ;
+}
+.middleV,.middleH,.middleH3{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+   .mainGo{
+     background-color: lightslategrey;
+     width: 200px;
+     padding: 20px;
+     color: white;
+ }
+   .mainGo:hover{
+     background-color: skyblue;
+     color: red;
+ }   
+   .mainGo:active{
+     background-color: yellow;
+     color: white;
+ }
+   .mainGo:visited{
+     background-color: yellow;
+     color: purple;
+ }
+ h1:hover{
+  color: green;
+  width: 47.2em;
+  transition-delay: 5s;
+ }
+/* For Box Model 2 */
+
+/*
+Inline vs Block
+box model
+Border
+padding 
+margin 
+box sizing
+*/
+
+p{
+font-family: 'Oleo Script Swash Caps', cursive;
+font-size: 2em;
+}

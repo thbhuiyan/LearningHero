@@ -1,0 +1,65 @@
+/*
+		1. Universal Selector --> *{}
+		2. Tag Selector       --> h1{}
+		3. Class Selector     --> .classname{}
+		4. ID Selector        --> #idName{}
+		5. Attribute Selector -->[href/type/placeholder]{}
+*/
+
+@font-face{
+	src: url('../fonts/WaterBrush-Regular.ttf');
+	font-family: 'WtrBrush-Regular';
+	font-style: normal;
+	font-stretch: 300%;
+}
+
+/* 1. Universal Selector */
+*{
+	margin: 0;
+	padding: 0;
+	color: deepskyblue;
+}
+
+/*2. Tag Selector */
+h1{
+	font-weight: 400;
+}
+
+/*3. Class Selector*/
+.odd1{
+	color: lawngreen;
+	font-stretch: 150%;
+}
+.even:hover{
+		color: green;
+	transition: all 2s;
+}
+
+.main{
+	background-color: lightcyan;
+	border: 1px solid green;
+	height: 50px;
+	padding: 1px;
+	text-align: center;
+}
+div{
+	margin-top: 10px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+/*4. ID Selector*/
+#hash{
+	font-family:'WtrBrush-Regular';
+	color: yellowgreen;
+}
+
+/*5. Attribute Selector*/
+[class]{
+	color: yellow;
+}
+.odd{
+	text-transform: capitalize;
+	color: rebeccapurple;
+}
+
