@@ -1,0 +1,57 @@
+.Heading {
+    color: darkgoldenrod;
+}
+
+.thirdHeading {
+    color: burlywood;
+}
+
+
+h2 {
+    color: cadetblue;
+    background-color: ghostwhite;
+}
+
+/* 6.8 Start */
+:root {
+    --side-width: 200px;
+    --color: red;
+    --main-color: green;
+    --border-color: gray;
+    --background-color: yellow;
+}
+
+p {
+    border: 2px solid var(--border-color);
+    color: var(--color);
+    padding: 10px;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+footer {
+    clear: both;
+    color: var(--color);
+    background-color: var(--background-color);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+
+.blogs,
+.sideNav {
+    float: left;
+    height: 200px;
+}
+
+aside {
+    background-color: springgreen;
+    width: var(--side-width);
+}
+
+.blogs {
+    background-color: tomato;
+    width: calc(100% - var(--side-width));
+}
